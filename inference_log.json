@@ -1,0 +1,32 @@
+{
+  "basic": {
+    "prompt": "a lone astronaut on Mars, ((full body shot)), ((perfectly centered)), symmetrical composition, standing facing camera, mid distance shot, eye level camera, 50mm lens, photorealistic, sharp focus, realistic Mars terrain",
+    "negative_prompt": "wide angle, fisheye, extreme perspective, cropped, cut off, blurry, low quality, cartoon, anime, painting, distorted, extra limbs, bad anatomy, watermark, text",
+    "num_steps": 50,
+    "guidance_scale": 7.5,
+    "seed": 42,
+    "inference_time_sec": 12.08,
+    "device": "cuda",
+    "saved_to": "generated_images/basic_result.png"
+  },
+  "detailed": {
+    "prompt": "((a lone astronaut on Mars:1.6)), ((full body shot:1.3)), ((astronaut clearly visible:1.4)), standing facing camera, center of frame, symmetrical composition, medium long shot, 50mm lens, red dusty Mars terrain, golden hour sunset lighting, realistic shadows, ultra realistic spacesuit details, sharp focus, depth of field",
+    "negative_prompt": "empty landscape, no person, no astronaut, tiny subject, far away, wide landscape, fisheye, ultra wide, cropped body, blurry, low quality, cartoon, anime, painting, distorted, extra limbs, bad anatomy, watermark",
+    "num_steps": 50,
+    "guidance_scale": 7.5,
+    "seed": 42,
+    "inference_time_sec": 12.86,
+    "device": "cuda",
+    "saved_to": "generated_images/detailed_result.png"
+  },
+  "negative": {
+    "prompt": "((a lone astronaut on Mars:1.4)), ((full body shot:1.3)), ((center of frame:1.5)), symmetrical framing, standing upright, medium long shot, camera 10 meters away, 50mm lens, photorealistic, realistic Mars terrain, golden hour sunlight, sharp focus, high detail",
+    "negative_prompt": "wide landscape, extreme wide angle, fisheye, tiny subject, cropped, partial body, cut off head, blurry, distorted, extra limbs, cartoon, anime, painting, watermark, text",
+    "num_steps": 50,
+    "guidance_scale": 7.5,
+    "seed": 42,
+    "inference_time_sec": 13.59,
+    "device": "cuda",
+    "saved_to": "generated_images/negative_result.png"
+  }
+}
